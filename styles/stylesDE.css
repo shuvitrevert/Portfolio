@@ -1,0 +1,215 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	background-color: white;
+}
+
+nav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #de0040;
+}
+
+nav ul {
+	list-style-type: none;
+	margin-top: 30px;
+		margin-left: 30px;
+		margin-right: 30px;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	
+}
+
+nav li {
+	margin: 0 50px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+nav a:hover {
+	background-color: transparent;
+	opacity: 0.6;
+}
+
+
+.dropdown .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+	  background-color: white;
+background-color: rgba(222, 0, 64, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  width: 200px;margin-top: 25px;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  display: block;
+  margin: 15px;
+}
+
+.dropdown:hover .submenu {
+  left: -30px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown .submenu {
+  top: 0;
+  left: 0;
+}
+
+.cover{
+	background: url(../designs/cover.png) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	text-align: center;
+}
+.cover h1{
+		margin-top: 600px; color: #de0040;
+
+}
+.header1 {margin-top: 150px}
+
+.text1{
+	margin-bottom: 200px;
+	text-align: center;align-self: center;
+}
+
+        .image-container {
+            text-align: center;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: center;
+        }
+.design1{
+	margin-top: 200px;
+}
+.design2{
+	margin-top: 100px;
+}
+       .design2, .design3, .design4, .design5 {
+            max-width: 700px;
+			margin-left: 2px;
+			margin-right: 2px;
+        }
+.text2, .text3, .text4{
+	margin-top: 20px;
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+.design6, .design7, .design8, .design9 {
+	max-width: 350px;
+	margin: 2px;
+}
+
+
+
+.design10, .design11 {
+	max-width: 700px;
+	margin: 10px;	
+}
+
+.design12, .design13 {
+	max-height: 800px;
+	margin: 20px;
+}
+
+
+.design14, .design15, .design16 {
+	max-height: 400px;
+	margin: 20px;
+}
+
+.text5, .text6 {
+		margin-top: 20px;
+	margin-bottom: 200px;
+}
+
+h2,h3{
+	font-size: 22px;
+	margin: 0;
+	padding-left: 50px;
+		font-weight: 0.02;
+	color: black;
+}
+h3{
+	opacity: 0.5
+}
+
+h4,h5,h6{
+	font-size: 22px;
+	margin: 0;
+	padding-left: 50px
+}
+
+.bottom h4, .bottom h5, .bottom h6 {
+			padding-left: 80px;
+}
+h5{
+	font-weight:500;
+		margin-bottom: 30px;
+}
+
+h3{
+	opacity: 0.5
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+	
+}
+
+.link:hover{
+	background-color: transparent;
+	opacity: 0.6;
+}
+
+ hr {
+            border: 1px solid black;
+            margin: 40px 0;
+        }
+h1{font-size: 120px;
+margin-left: 100px;
+ margin-top: 200px;
+color: black;}
+
+.bottom{
+	margin-top: 50px;
+	color: black;
+}
+
+
+.footer {
+    color: black;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+margin-left: 100px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	height: 0vh;}
