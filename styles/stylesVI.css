@@ -107,7 +107,7 @@ background-color: rgba(0, 0, 0, 0.8);
 .video1 video,
   .video2 video,
   .video3 video {
-    max-width: 1800px;
+    max-width: 1500px;
     width: 100%;
     height: auto;
 	  padding: 20px;
