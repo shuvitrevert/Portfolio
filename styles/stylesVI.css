@@ -81,8 +81,8 @@ background-color: rgba(0, 0, 0, 0.8);
 
 }
 .video1, .video2, .video3{
-  max-width: 1000px;
-  width: 100%;
+  max-width: 800px;
+  width: 80%;
   height: auto;
   padding: 20px;
 }
